@@ -7,7 +7,7 @@ import time
 # ==================================================
 # CONFIG
 # ==================================================
-API_URL = "http://127.0.0.1:8000/predict/"  # change after deployment
+API_URL = "https://divorce-prediction-1.onrender.com/predict/"  
 
 st.set_page_config(
     page_title="Relationship Insight Analyzer",
@@ -317,3 +317,4 @@ if st.button("✨ ANALYZE RELATIONSHIP", use_container_width=True):
         st.markdown(f"<div class='tip'>🌱 {i}</div>", unsafe_allow_html=True)
 
     st.caption("ℹ️ This tool provides probabilistic insights, not certainties.")
+
